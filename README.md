@@ -17,14 +17,14 @@ Cada pasta contém a solução completa de um desafio, junto com as imagens de r
 
 ## 🟢 Newbie
 
-| Projeto | Descrição | Tecnologias | Solução | Desafio |
+| Preview | Projeto | Tecnologias | Solução | Desafio |
 | --- | --- | --- | --- | --- |
-| **QR Code Component** | Card centralizado com imagem de QR code, título e descrição. Primeiro contato com Flexbox, box model e responsividade. | HTML, CSS | [Ver solução](./qr-code-component) | [Ver desafio](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) |
+| <img src="./qr-code-component/design/preview.jpg" width="280" alt="Preview do QR Code Component"> | **QR Code Component** | HTML, CSS | [Ver solução](./qr-code-component) | [Ver desafio](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) |
 
 <!--
 ## 🟡 Junior
 
-| Projeto | Descrição | Tecnologias | Solução | Desafio |
+| Preview | Projeto | Tecnologias | Solução | Desafio |
 | --- | --- | --- | --- | --- |
 | | | | | |
 -->
