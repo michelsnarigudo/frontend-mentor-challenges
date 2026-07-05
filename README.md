@@ -40,4 +40,4 @@ Depois é só entrar na pasta do projeto desejado e abrir o `index.html` no nave
 
 ---
 
-Feito por [michelsnarigudo](https://github.com/michelsnarigudo) 💜
+Feito por [michelsnarigudo](https://github.com/michelsnarigudo)

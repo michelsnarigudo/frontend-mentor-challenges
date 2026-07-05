@@ -40,7 +40,7 @@ width: 100%;
 max-width: 390px;
 ```
 
-### `height: auto` em vez de altura fixa
+### height: auto em vez de altura fixa
 
 Aprendi que ao não declarar height é assumido o valor padrão auto, o container cresce conforme o necessario, ou seja, é calculado sozinho baseado no conteudo de dentro (soma da imagem + texto + gaps).
 
