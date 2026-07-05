@@ -1,0 +1,23 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.log
+
+# Node (caso algum desafio use ferramentas de build)
+node_modules/
+dist/
+.env
+
+# Arquivos de design do Figma (não redistribuir, conforme termos do Frontend Mentor)
+*-figma/
+__MACOSX/
+
+# Arquivos padrão que vêm em todo desafio do Frontend Mentor (não fazem parte da solução)
+agents.md
+claude.md
+
+# Anotações pessoais de aprendizado (não fazem parte da entrega do desafio)
+minha-jornada-*.md
