@@ -56,7 +56,7 @@ Aprendi que ao não declarar height é assumido o valor padrão auto, o containe
 git clone https://github.com/michelsnarigudo/frontend-mentor-challenges.git
 
 # Entre na pasta do projeto
-cd frontend-mentor-challenges/qr-code-component
+cd frontend-mentor-challenges/newbie/qr-code-component
 ```
 
 Depois é só abrir o `index.html` no navegador.

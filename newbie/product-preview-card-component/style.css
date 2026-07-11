@@ -1,0 +1,168 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+/* general styling */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.product {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product-content {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.product-category {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.product-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+.product-prices {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-new-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 0.75em 1.5em;
+  font-size: 0.925rem;
+  font-weight: 700;
+}
+
+.button > img {
+  width: 15px;
+  height: 16px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: hsl(158, 42%, 18%);
+}
+
+@media (max-width: 600px) {
+  .product {
+    grid-template-columns: 1fr;
+  }
+
+  .product-content {
+    padding: 1.5rem;
+  }
+}
